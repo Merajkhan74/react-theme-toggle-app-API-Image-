@@ -1,20 +1,38 @@
-<<<<<<< HEAD
-# React + Vite
+# React Theme Toggle App 🌗
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project built using **Vite** that demonstrates
+a **Light / Dark Theme Toggle** using the **Context API**.
 
-Currently, two official plugins are available:
+The project also displays product cards with images loaded dynamically
+from a public image API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
+- Light / Dark theme toggle
+- Global state management using Context API
+- Product cards with images from Image API
+- Responsive layout
+- Styled using Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- React.js
+- Vite
+- Context API
+- Tailwind CSS
+- JavaScript (ES6)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# react-theme-toggle-app-API-Image-
->>>>>>> bd31d97cc3bda0c29f47f3698a5fa0407dcfd397
+---
+
+## 🖼️ Image API
+Images are dynamically fetched using a free public image API (LoremFlickr).
+No API key is required.
+
+---
+
+## ⚙️ Run Project Locally
+```bash
+npm install
+npm run dev
